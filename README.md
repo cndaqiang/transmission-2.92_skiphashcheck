@@ -62,3 +62,7 @@ right click on ANY torrent, click `Ask tracker for more peers` and the CURRENT v
 * Make a backup of `/usr/bin/transmission-daemon` before replacing. 
 * I have only tested transmission-2.92 on Centos 6.
 * DON'T use this feature for cheating, you will be caught.
+
+### For ubuntu 18.04 
+openssl up to 1.1, need to patch transmission
+[Bug 1468077 - Transmission-gtk: Update to support openssl 1.1 (rather than the compat package)](https://bugzilla.redhat.com/show_bug.cgi?id=1468077)
